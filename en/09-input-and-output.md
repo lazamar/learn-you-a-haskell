@@ -1565,7 +1565,7 @@ Here's a small program that demonstrates how these two work:
     putStrLn progName
 ~~~~
 
-We bind `getArgs` and `progName` to `args` and `progName`. We say
+We bind `getArgs` and `getProgName` to `args` and `progName`. We say
 `The arguments are:` and then for every argument in `args`, we do `putStrLn`. Finally, we
 also print out the program name. Let's compile this as `arg-test`.
 
